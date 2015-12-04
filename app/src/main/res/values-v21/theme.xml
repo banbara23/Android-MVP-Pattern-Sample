@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">@color/primary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/accent</item>
+
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+        <item name="android:windowEnterTransition">@android:transition/explode</item>
+        <item name="android:windowExitTransition">@android:transition/explode</item>
+    </style>
+
+</resources>

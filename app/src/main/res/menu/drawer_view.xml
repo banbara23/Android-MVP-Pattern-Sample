@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/title_big_section1">
+        <menu>
+            <item
+                android:id="@+id/search_from_area"
+                android:icon="@drawable/ic_search_black_36dp"
+                android:title="@string/title_section1"/>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/title_big_section2">
+        <menu>
+            <item
+                android:id="@+id/select_from_bookmark"
+                android:icon="@drawable/ic_turned_in_black_36dp"
+                android:title="@string/title_section2"/>
+        </menu>
+    </item>
+
+</menu>
